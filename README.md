@@ -35,6 +35,7 @@ Task Manager es una aplicación que permite gestionar tareas, incluyendo la crea
    ```
 
 ## 🛠️ Tecnologías Utilizadas
-   JavaScript: Lenguaje principal del proyecto.
-   Jest: Framework de pruebas unitarias.
-   HTML & CSS: Estructura y estilos de la interfaz.
+- JavaScript: Lenguaje principal del proyecto.
+- Jest: Framework de pruebas unitarias.
+- HTML & CSS: Estructura y estilos de la interfaz.
+- SQLite : Base de datos embebida
