@@ -34,7 +34,7 @@ Task Manager es una aplicación que permite gestionar tareas, incluyendo la crea
    npm test
    ```
 
-🛠️ Tecnologías Utilizadas
-JavaScript: Lenguaje principal del proyecto.
-Jest: Framework de pruebas unitarias.
-HTML & CSS: Estructura y estilos de la interfaz.
+## 🛠️ Tecnologías Utilizadas
+   JavaScript: Lenguaje principal del proyecto.
+   Jest: Framework de pruebas unitarias.
+   HTML & CSS: Estructura y estilos de la interfaz.
