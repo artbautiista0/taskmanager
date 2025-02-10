@@ -39,3 +39,5 @@ Task Manager es una aplicación que permite gestionar tareas, incluyendo la crea
 - Jest: Framework de pruebas unitarias.
 - HTML & CSS: Estructura y estilos de la interfaz.
 - SQLite : Base de datos embebida
+
+ENJOY!!
