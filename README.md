@@ -16,3 +16,13 @@ Task Manager es una aplicación que permite gestionar tareas, incluyendo la crea
    ```sh
    git clone https://github.com/tu-usuario/task-manager.git
    cd task-manager
+2. Accede al directorio del proyecto:
+   ```sh
+   cd task-manager
+3. Instala las dependencias necesarias:
+   ```sh
+   npm install
+   
+## 🛠️ Uso
+   ```sh
+   npm start
