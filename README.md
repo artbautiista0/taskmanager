@@ -14,7 +14,7 @@ Task Manager es una aplicación que permite gestionar tareas, incluyendo la crea
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/task-manager.git
+   git clone https://github.com/artbautiista0/taskmanager.git
    cd task-manager
    ```
 2. Accede al directorio del proyecto:
