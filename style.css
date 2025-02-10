@@ -1,0 +1,177 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Formulario */
+#taskForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#taskForm label {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#taskForm input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#taskForm input[type="text"]:focus {
+    border-color: #888;
+}
+
+#taskForm button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#taskForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de tareas */
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.task-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.task-item span {
+    font-size: 1rem;
+    color: #555;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-actions button:nth-child(1) {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.task-actions button:nth-child(1):hover {
+    background-color: #218838;
+}
+
+.task-actions button:nth-child(2) {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.task-actions button:nth-child(2):hover {
+    background-color: #e0a800;
+}
+
+.task-actions button:nth-child(3) {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.task-actions button:nth-child(3):hover {
+    background-color: #c82333;
+}
+
+/* Mensajes de estado */
+#taskList p {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Estilo para tareas completadas */
+.task-item.completed {
+    opacity: 0.7; /* Hace la tarea un poco transparente */
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+}
+
+.task-item.completed .task-info input {
+    text-decoration: line-through; /* Tacha el texto */
+    color: #888; /* Cambia el color del texto */
+}
+
+.task-item.completed .task-info span {
+    color: #888; /* Cambia el color del texto del estado */
+}
+
+/* Botón "Undo" para tareas completadas */
+.task-item.completed .task-actions button:nth-child(1) {
+    background-color: #6c757d; /* Cambia el color del botón */
+}
+
+.task-item.completed .task-actions button:nth-child(1):hover {
+    background-color: #5a6268; /* Cambia el color al hacer hover */
+}
